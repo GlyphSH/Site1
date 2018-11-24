@@ -1,0 +1,86 @@
+* {
+   margin: 0; 
+   padding: 0;
+ }
+
+ div#banner-content { 
+   margin: 0 auto;
+   margin-left: 15px;
+   margin-right: 15px;
+   padding: 10px;
+   border: 1px solid #000;
+   background-color: #DDEEEE; 
+
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 790px; 
+}
+
+div#main-content { 
+   margin: 0 auto;
+   margin-left: 15px;
+   margin-right: 15px;
+   padding: 10px;
+   padding-top: 45px;
+   padding-left: 0px;
+   width: 800px; 
+}
+
+div.title {
+  border-bottom: 1px solid #000; 
+  width: 300px;
+  text-align : center;
+  font-weight: bold;
+  height: 25px;
+  line-height: 25px;
+}
+div.box {
+   border: 1px solid #000;
+   background-color: #DDEEEE; 
+   width: 300px;
+}
+
+.list h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.box ul {
+  list-style-type: none;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.box li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.box li:last-child {
+  border: none;
+}
+
+.box-all {
+  width: 700px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.messages {
+  width:500px; 
+  height:500px;
+  background-color: lightgray;
+  border: solid 1px;
+}
+
+#command-input {
+  width: 460px;
+}
+
+#apikey {
+  width: 460px;
+}

@@ -1,0 +1,28 @@
+Class SOURCES{
+
+	models::
+		forum.main (links views::forum.main & controllers::forum.main)
+		register (links views::register & controllers::register)
+		database
+
+	views::
+		forum.main (links models::forum.main & controllers::forum.main)
+		register (links models::register & controllers::register)
+		index (main)
+
+	controllers::
+		error
+		forum.main (links models::forum.main & views::forum.main)
+		gump
+		main
+		register (links models::register & views::register)
+		security
+}
+
+
+
+Main MVC:: 
+
+MAIN DATABASE FUNCTIONS FOR MODELS,
+MAIN REDIRECTION FOR VIEWS,
+MAIN CONTROLLER FOR HANDLING FILTERING, VALIDATION
